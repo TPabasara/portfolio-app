@@ -1,5 +1,6 @@
 document.getElementById("submit").onclick = function (event) {
   event.preventDefault();
+  this.style.backgroundColor = "#cfe1f4";
   let name;
   let message;
   name = document.getElementById("name").value;
